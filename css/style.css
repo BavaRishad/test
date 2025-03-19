@@ -26,3 +26,19 @@
   height: 100px;
   border-radius: 50%;
 }
+
+#contact {
+  background-color: rgba( 248, 249, 250, 1);
+  height: 100vh;
+  
+}
+
+#contact-button {
+  background-color: black;
+}
+
+#contact-button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}

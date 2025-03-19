@@ -39,7 +39,6 @@
 
   </section>
 
-  
   <!-- Features -->
 <!-- <section id="features"> -->
   <div class="container mt-5">
@@ -86,9 +85,7 @@
   </div>
 <!-- </section> -->
 
-
   <!-- Testimonial -->
-
   <section id="testimonial">
     <div class="my-5">
       <div class="p-5 text-center bg-body-tertiary">
@@ -123,7 +120,6 @@
 
   <!-- Pricing -->
   <section id="pricing">
-
     <div class="container">
       <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
         <h2 class="display-4 fw-normal">A Plan for Every Dog's Needs</h2>
@@ -142,7 +138,7 @@
                 <li>10 Messages Per Day</li>
                 <li>Unlimited App Usage</li>
               </ul>
-              <button type="button" class="w-100 btn btn-lg btn-outline-dark">Sign up for free</button>
+              <button type="button" class="w-100 btn btn-lg btn-outline-dark" >Sign up for free</button>
             </div>
           </div>
         </div>
@@ -158,7 +154,7 @@
                 <li>Unlimited Messages</li>
                 <li>Unlimited App Usage</li>
               </ul>
-              <button type="button" class="w-100 btn btn-lg btn-dark">Get started</button>
+              <button type="button" class="w-100 btn btn-lg btn-dark" id="contact-button">Get started</button>
             </div>
           </div>
         </div>
@@ -174,14 +170,45 @@
                 <li>Unlimited Matches &amp; Messages</li>
                 <li>Unlimited App Usage</li>
               </ul>
-              <button type="button" class="w-100 btn btn-lg btn-dark">Contact us</button>
+              <button type="button" class="w-100 btn btn-lg btn-dark" id="contact-button">Contact us</button>
             </div>
           </div>
         </div>
       </div>
     </div>
-
   </section>
+
+  <!-- Contact Section -->
+<section id="contact" class="py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <h2 class="display-4 fw-normal mb-4">Contact Us</h2>
+        <p class="fs-5 text-body-secondary mb-5">Have questions or feedback? We'd love to hear from you!</p>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Your Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Your Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Your Message</label>
+            <textarea class="form-control" id="message" rows="5" placeholder="Enter your message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-dark btn-lg w-100" id="contact-button">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
   <!-- Footer -->
   <section id="footer" class="gradient-background">
     <div class="container" style="border-top: 0;">
