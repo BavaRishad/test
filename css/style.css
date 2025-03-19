@@ -53,4 +53,17 @@
   height: 100px;
   border-radius: 50%;
 
+}}.card-cover {
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+}
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+
+}.card-cover {
+  background-size: cover;
+  background-position: center;
+  height: 180px;
 }
